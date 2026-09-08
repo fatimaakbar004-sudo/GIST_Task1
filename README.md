@@ -39,7 +39,7 @@ The website is optimized for different screen sizes:
 - 📱 Large Mobile Devices
 - 📱 Tablets
 - 💻 Laptops 
-- 🖥️ Desktop Screens 
+- 🖥️ Desktop Screens  
 
 ##  Project Structure
 
@@ -50,3 +50,4 @@ task-1-landing-page/
 ├── style.css
 ├── script.js
 └── README.md
+
