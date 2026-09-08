@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>TechFlow — Product Engineering Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Tech<b>Flow</b></div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Approach</a></li>
+          <li><a href="#contact" class="nav-contact">Contact</a></li>
+        </ul>
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="wrap hero-inner">
+        <div class="hero-content">
+          <div class="eyebrow">Product engineering studio</div>
+          <h1>We build the software that runs your next stage of growth.</h1>
+          <p>
+            TechFlow partners with founders and operations teams to design,
+            build, and ship web products — from the first working prototype to
+            the system your business runs on every day.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Start a project</a>
+            <a href="#services" class="btn btn-ghost">See what we do</a>
+          </div>
+        </div>
+
+        <div class="signal-panel" aria-hidden="true">
+          <svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M20 150 C 90 150, 90 60, 160 60 S 250 150, 320 150"
+              fill="none"
+              stroke="#2F6F62"
+              stroke-width="2"
+              stroke-dasharray="4 6"
+            />
+            <path
+              d="M20 150 C 90 150, 90 100, 160 100 S 250 40, 320 40"
+              fill="none"
+              stroke="#3A4570"
+              stroke-width="1.5"
+            />
+            <circle cx="20" cy="150" r="6" fill="#C89B3C" />
+            <circle cx="160" cy="60" r="6" fill="#2F6F62" />
+            <circle cx="320" cy="150" r="6" fill="#C89B3C" />
+            <circle cx="160" cy="100" r="5" fill="#3A4570" />
+            <circle cx="320" cy="40" r="6" fill="#C89B3C" />
+          </svg>
+          <div class="signal-labels">
+            <span>Design</span>
+            <span>Build</span>
+            <span>Ship</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Three ways we work with you</h2>
+          <p>
+            We stay small on purpose — one team follows a project from the first
+            sketch to the day it ships, so nothing gets lost in a handoff.
+          </p>
+        </div>
+
+        <div class="service-row">
+          <div class="service-mark"><i class="fa-solid fa-code"></i></div>
+          <h3>Product engineering</h3>
+          <p>
+            We design and build web applications from the ground up, choosing
+            the simplest architecture that will hold up as your team and your
+            traffic grow.
+          </p>
+        </div>
+
+        <div class="service-row">
+          <div class="service-mark"><i class="fa-solid fa-swatchbook"></i></div>
+          <h3>Interface design</h3>
+          <p>
+            Every screen is designed around the task someone is trying to
+            finish, not around the framework we happen to be building it in.
+          </p>
+        </div>
+
+        <div class="service-row">
+          <div class="service-mark">
+            <i class="fa-solid fa-diagram-project"></i>
+          </div>
+          <h3>Systems &amp; integrations</h3>
+          <p>
+            We connect the tools you already run — billing, support, data — so
+            your team stops copying numbers between tabs by hand.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features" id="work">
+      <div class="wrap features-inner">
+        <div class="stat-block">
+          <div class="num">3<small> weeks</small></div>
+          <p>
+            average time from kickoff to a working prototype you can put in
+            front of customers.
+          </p>
+        </div>
+
+        <div class="features-content">
+          <h2>Built by people who stay through launch</h2>
+          <p>
+            Most agencies hand off a design and disappear before the build
+            starts. Our engineers and designers work on the same project end to
+            end, which means fewer surprises and a product that actually matches
+            what was promised.
+          </p>
+
+          <div class="checklist">
+            <div class="check-item">
+              <div class="mark"></div>
+              <div>
+                <h4>Built to last, not to demo</h4>
+                <p>
+                  We write code for the version of your product that exists in a
+                  year, not just the one you'll show investors next week.
+                </p>
+              </div>
+            </div>
+            <div class="check-item">
+              <div class="mark"></div>
+              <div>
+                <h4>One team, start to finish</h4>
+                <p>
+                  The people who design your product are the same people who
+                  build and ship it.
+                </p>
+              </div>
+            </div>
+            <div class="check-item">
+              <div class="mark"></div>
+              <div>
+                <h4>Priced for clarity</h4>
+                <p>
+                  Fixed-scope quotes before we start, so there's no invoice that
+                  surprises you later.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Tell us what you're building</h2>
+          <p>
+            Send a few details about your project and we'll reply within one
+            business day with next steps.
+          </p>
+        </div>
+
+        <div class="contact-inner">
+          <div class="contact-info">
+            <p>
+              Prefer to skip the form? Reach out directly and a member of the
+              team will get back to you.
+            </p>
+            <ul class="info-list">
+              <li>
+                <div class="info-mark">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                  <h4>Email</h4>
+                  <p>
+                    <a href="mailto:hello@techflow.studio"
+                      >hello@techflow.studio</a
+                    >
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="info-mark">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                  <h4>Studio</h4>
+                  <p>Remote-first, with team members across three time zones</p>
+                </div>
+              </li>
+              <li>
+                <div class="info-mark"><i class="fa-solid fa-clock"></i></div>
+                <div>
+                  <h4>Response time</h4>
+                  <p>Within one business day, Monday through Friday</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="you@company.com"
+                  required
+                />
+              </div>
+            </div>
+            <div class="field">
+              <label for="company">Company</label>
+              <input
+                type="text"
+                id="company"
+                name="company"
+                placeholder="Company name (optional)"
+              />
+            </div>
+            <div class="field">
+              <label for="message">What are you building?</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="A short description of your project, timeline, or goals"
+                required
+              ></textarea>
+            </div>
+            <p class="form-note">
+              We reply within one business day. No spam, ever.
+            </p>
+            <button type="submit" class="btn btn-primary">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="wrap footer-inner">
+        <div class="footer-brand">
+          <div class="logo">Tech<b>Flow</b></div>
+          <p>
+            A small product engineering studio building web software for growing
+            businesses.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Studio</h4>
+            <a href="#services">Services</a>
+            <a href="#work">Approach</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="footer-col">
+            <h4>Connect</h4>
+            <a href="mailto:hello@techflow.studio">Email</a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">© 2026 TechFlow Studio. All rights reserved.</p>
+    </footer>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="script.js"></script>
+  </body>
+</html>
